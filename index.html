@@ -9,30 +9,456 @@
   </head>
   <body>
     <header class="site-header">
-      <nav class="site-header__nav">
-        <ul class="site-header__list">
+      <nav class="site-header__nav site-header__nav--active container">
+        <a class="site-header__item-link" href="#"
+          ><img
+            class="site-header__logoimg"
+            src="./icons/logo.svg"
+            alt="logo"
+            width="160"
+            height="40"
+        /></a>
+
+        <ul class="site-header__list site-header__list--active">
           <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#"
-              >History Of Our Company</a
-            >
+            <a class="site-header__item-link" href="#">home</a>
           </li>
+
           <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#">About Us</a>
-          </li>
-          <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#">Our Projects</a>
-          </li>
-          <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#">Home</a>
-          </li>
-          <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#">Any Information</a>
-          </li>
-          <li class="site-header__list-item">
-            <a class="site-header__list-item-link" href="#">Support</a>
+            <a class="site-header__item-link" href="#">about</a>
           </li>
         </ul>
+        <a class="site-header__link site-header__link--active" href="#"
+          >contact us</a
+        >
+        <button class="site-header__btn">
+          <img
+            class="site-header__btn-img"
+            src="./icons/lines.svg"
+            alt="lines"
+            width="20"
+            height="17"
+          />
+        </button>
       </nav>
     </header>
+
+    <main class="site-main">
+      <section class="company-features">
+        <div class="company-features__wrapper container">
+          <h2 class="company-features__heading">About</h2>
+          <div class="company-features__line__wrapper">
+            <span class="company-features__line"></span>
+            <p class="company-features__desc">
+              We help companies build dynamic teams made up of top global
+              talent. Using our network of passionate professionals we drive
+              innovation and deliver incredible outcomes. Talented, diverse
+              teams shape the best products and experiences. We’ll bring those
+              teams to you.
+            </p>
+            <img
+              class="company-features__img"
+              src="./icons/disk-red.png"
+              alt="disc"
+              width="100"
+              height="100"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="meet-directors">
+        <img
+          class="meet-directors__disc"
+          src="./icons/lower-disk.svg"
+          alt="disc"
+          width="100"
+          height="100"
+        />
+        <img
+          class="meet-directors__rectangle"
+          src="./icons/directors-bg-right.svg"
+          alt="rectangle"
+          width="147"
+          height="100"
+        />
+        <div class="meet-directors__wrapper container">
+          <h2 class="meet-directors__heading">Meet the directors</h2>
+          <ul class="meet-directors__list">
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+          </ul>
+
+          <ul class="meet-directors__list">
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+
+            <li class="meet-directors__list-item">
+              <img
+                class="meet-directors__item-img"
+                src="./img/user-drake.png"
+                alt="Avatar"
+                width="96"
+                height="96"
+              />
+              <h3 class="meet-directors__item-heading">Nikita Marks</h3>
+              <i class="meet-directors__item-desc">Founder & CEO</i>
+              <svg
+                class="meet-directors__item-into-img"
+                width="56"
+                height="56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="meet-directors__svg-fill"
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#F67E7E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30 20h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6Z"
+                  fill="#012F34"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="clients-section">
+        <img
+          class="clients-section__circle"
+          src="./icons/clients-bg.svg"
+          alt="disc"
+          width="200"
+          height="200"
+        />
+        <div class="clients-section__wrapper container">
+          <h2 class="clients-section__heading">Some of our clients</h2>
+          <ul class="clients-section__list">
+            <li class="clients-section__list-item">
+              <a class="clients-section__item-link" href="#">
+                <img
+                  class="clients-section__link-img"
+                  src="./icons/jakarta.svg"
+                  alt="jacarta"
+                  width="184"
+                  height="23"
+                />
+              </a>
+            </li>
+
+            <li class="clients-section__list-item">
+              <a class="clients-section__item-link" href="#">
+                <img
+                  class="clients-section__link-img"
+                  src="./icons/jakarta.svg"
+                  alt="jacarta"
+                  width="184"
+                  height="23"
+                />
+              </a>
+            </li>
+
+            <li class="clients-section__list-item">
+              <a class="clients-section__item-link" href="#">
+                <img
+                  class="clients-section__link-img"
+                  src="./icons/jakarta.svg"
+                  alt="jacarta"
+                  width="184"
+                  height="23"
+                />
+              </a>
+            </li>
+
+            <li class="clients-section__list-item">
+              <a class="clients-section__item-link" href="#">
+                <img
+                  class="clients-section__link-img"
+                  src="./icons/jakarta.svg"
+                  alt="jacarta"
+                  width="184"
+                  height="23"
+                />
+              </a>
+            </li>
+
+            <li class="clients-section__list-item">
+              <a class="clients-section__item-link" href="#">
+                <img
+                  class="clients-section__link-img"
+                  src="./icons/jakarta.svg"
+                  alt="jacarta"
+                  width="184"
+                  height="23"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="get-started">
+        <img
+          class="get-started__img"
+          src="./icons/Group-8.svg"
+          alt="disc"
+          width="200"
+          height="200"
+        />
+        <div class="get-started__wrapper container">
+          <h2 class="get-started__heading">Ready to get started?</h2>
+          <a class="get-started__link link-modify" href="#"> contact us </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__wrapper container">
+        <div class="site-footer__header">
+          <a class="site-footer__header-link" href="#"
+            ><img
+              class="site-footer__header-link-img"
+              src="./icons/logo.svg"
+              alt="logo"
+          /></a>
+
+          <ul class="site-footer__header-list">
+            <li class="site-footer__header-list-item">
+              <a class="site-footer__header-item-link" href="#"> home </a>
+            </li>
+
+            <li class="site-footer__header-list-item">
+              <a class="site-footer__header-item-link" href="#"> about </a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="site-footer__nav">
+          <ul class="site-footer__nav-list">
+            <li class="site-footer__list-item">
+              <a class="site-footer__nav-item-link" href="#">
+                987 Hillcrest Lane
+              </a>
+            </li>
+
+            <li class="site-footer__list-item">
+              <a class="site-footer__nav-item-link" href="#"> Irvine, CA </a>
+            </li>
+
+            <li class="site-footer__list-item">
+              <a class="site-footer__nav-item-link" href="#">
+                California 92714
+              </a>
+            </li>
+
+            <li class="site-footer__list-item">
+              <a class="site-footer__nav-item-link" href="#">
+                Call Us : 949-833-7432
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="site-footer__box">
+          <ul class="site-footer__box-list">
+            <li class="site-footer__box-list-item">
+              <a class="site-footer__box-item-link" href="#"
+                ><img
+                  class="site-footer__box-item-link-img"
+                  src="./icons/Path.svg"
+                  alt="social media icon"
+              /></a>
+            </li>
+
+            <li class="site-footer__box-list-item">
+              <a class="site-footer__box-item-link" href="#"
+                ><img
+                  class="site-footer__box-item-link-img"
+                  src="./icons/Path(1).svg"
+                  alt="social media icon"
+              /></a>
+            </li>
+
+            <li class="site-footer__box-list-item">
+              <a class="site-footer__box-item-link" href="#"
+                ><img
+                  class="site-footer__box-item-link-img"
+                  src="./icons/twitter-1.svg"
+                  alt="social media icon"
+              /></a>
+            </li>
+          </ul>
+          <p class="site-footer__box-desc">
+            Copyright 2020. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>

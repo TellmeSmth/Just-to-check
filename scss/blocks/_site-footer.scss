@@ -1,0 +1,127 @@
+.site-footer {
+  background-color: $darker-green;
+  padding: 48px;
+}
+
+.site-footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__header-link {
+  text-decoration: none;
+}
+
+.site-footer__header-list {
+  @include list-unstyled;
+  display: flex;
+}
+
+.site-footer__header-list-item {
+  &:not(:first-child) {
+    margin-left: 40px;
+  }
+}
+
+.site-footer__header-item-link {
+  text-decoration: none;
+  font-family: $Livvic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: $primary-white;
+}
+
+.site-footer__header-link-img {
+  display: block;
+}
+
+.site-footer__nav-list {
+  @include list-unstyled;
+  padding-top: 30px;
+}
+
+.site-footer__nav-item-link {
+  text-decoration: none;
+  font-family: $Livvic;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: $primary-white;
+  opacity: 0.6;
+}
+
+.site-footer__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.site-footer__box-list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.site-footer__box-list-item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.site-footer__box-item-link {
+  display: block;
+  text-decoration: none;
+}
+
+.site-footer__box-item-link-img {
+  display: block;
+}
+
+.site-footer__box-desc {
+  margin: 0;
+  font-family: $Livvic;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  color: $primary-white;
+  opacity: 0.6;
+  padding-top: 40px;
+}
+
+@include breakpoint-down(770px) {
+  .site-footer__wrapper {
+    flex-direction: column;
+  }
+
+  .site-footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-footer__header-list {
+    @include list-unstyled;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .site-footer__nav-item-link {
+    display: inline;
+    text-align: center;
+  }
+
+  .site-footer__box-desc {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.link-modify {
+  font-family: $Livvic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: $primary-black;
+  border: 2px solid $primary-black;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 9px 33px 11px 32px;
+}
+
+@include breakpoint-down(355px) {
+  .link-modify {
+    display: inline-block;
+    padding: 8px 15px;
+  }
+}
+
+@include breakpoint-down(320px) {
+  .link-modify {
+    display: inline-block;
+    padding: 4px 8px;
+  }
+}

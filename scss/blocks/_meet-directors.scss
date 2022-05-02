@@ -1,0 +1,145 @@
+.meet-directors {
+  position: relative;
+  background-color: $dark-green;
+  padding-top: 140px;
+  padding-bottom: 168px;
+}
+
+.meet-directors__heading {
+  margin: 0;
+  z-index: 3;
+  font-family: $Livvic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: $primary-white;
+}
+
+.meet-directors__list {
+  @include list-unstyled;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.meet-directors__list-item {
+  position: relative;
+  background-color: $darker-green;
+  padding-top: 35px;
+  padding-bottom: 56px;
+  padding-left: 118px;
+  padding-right: 118px;
+}
+
+.meet-directors__list-item--modify {
+  padding: 35px 48px 63px 48px;
+}
+
+.meet-directors__item-heading {
+  margin: 0;
+  font-family: $Livvic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $lighter-green;
+  padding-top: 13px;
+  padding-bottom: 3px;
+}
+
+.meet-directors__item-desc {
+  font-family: $Livvic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: $primary-white;
+}
+
+.meet-directors__item-into-img {
+  position: absolute;
+  left: calc(42%);
+  bottom: calc(-30px);
+  transition: 0.3s all ease;
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+.meet-directors__svg-fill {
+  &:hover {
+    fill: $lighter-green;
+  }
+}
+
+.meet-directors__disc {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.meet-directors__rectangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.meet-directors__mod-heading {
+  margin: 0;
+  font-family: $Livvic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $lighter-green;
+}
+
+.meet-directors__mod-desc {
+  margin: 0;
+  width: 254px;
+  font-family: $Livvic;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: $primary-white;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.meet-directors__mod-link {
+  display: inline-flex;
+  text-decoration: none;
+  &:last-child {
+    margin-left: 16px;
+  }
+}
+
+@include breakpoint-down(1075px) {
+  .meet-directors__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .meet-directors__list {
+    display: inline;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+
+  .meet-directors__list-item {
+    &:not(:first-child) {
+      margin-top: 100px;
+    }
+  }
+}
+
+@include breakpoint-down(640px) {
+  .meet-directors__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
